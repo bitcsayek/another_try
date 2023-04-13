@@ -400,6 +400,7 @@ void DisplayStartup(void)
 void main(void)
 {
 	WDTCTL = WDTPW + WDTHOLD;	// Stop WDT
+
 	WDTCTL = WDTPW + WDTHOLD;   // Stop WDT
 	UCSCTL3 |= SELREF_2;
     UCSCTL4 |= SELA_2;
